@@ -3,9 +3,9 @@ import requests
 from InquirerPy.separator import Separator
 
 
-from ph5lt import prompts
-from ph5lt import constants
-from ph5lt import utils
+from phlist import prompts
+from phlist import constants
+from phlist import utils
 
 # PiHole 5.1 installation defaults
 DEFAULT_LISTS = [
