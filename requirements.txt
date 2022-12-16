@@ -1,0 +1,10 @@
+requests
+InquirerPy
+black
+ansicolors
+twine
+pytest
+pytest-subprocess
+terminaltables
+wheel
+pylint
