@@ -10,7 +10,17 @@ from ph5lt import utils
 # PiHole 5.1 installation defaults
 DEFAULT_LISTS = [
     "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-    "https://mirror1.malwaredomains.com/files/justdomains",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-1.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-2.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-3.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-4.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-5.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-6.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-7.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-8.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-9.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-10.txt",
+    "https://raw.githubusercontent.com/cyberoslab/black-hole/main/hosts/Suspicious%20Lists/spam-11.txt",
 ]
 
 blockLists = {
