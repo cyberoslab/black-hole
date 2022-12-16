@@ -125,7 +125,7 @@ def add(cur):
             exists += 1
         else:
             added += 1
-            vals = (item["url"], item["comment"] + " [ph5lt]")
+            vals = (item["url"], item["comment"] + " [phlist]")
             cur.execute(
                 "INSERT OR IGNORE INTO adlist (address, comment) VALUES (?,?)", vals
             )
@@ -180,7 +180,7 @@ def remove(cur):
 
     if prompts.confirm("Are you sure?", "n"):
         cur.execute(
-            "DELETE FROM adlist WHERE comment LIKE '%Firebog |%' OR comment LIKE '%[ph5lt]'"
+            "DELETE FROM adlist WHERE comment LIKE '%Firebog |%' OR comment LIKE '%[phlist]'"
         )
         return True
 
